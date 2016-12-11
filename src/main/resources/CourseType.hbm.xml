@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.coursescenter.pojo.CourseType" table="CourseType">
+        
+        <!-- Chave primária -->
+   		<id name="Id" column="id">
+      		<generator class="identity" />
+    	</id>
+    	
+    	<!-- Coluna Identification -->
+    	<property name="Identification">
+      		<column name="identification" sql-type="varchar" not-null="true" />
+    	</property>
+    	
+   	</class>
+</hibernate-mapping>

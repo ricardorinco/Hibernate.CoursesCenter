@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.11" icons="true" automaticImage="PNG" always-add-relationships="false" 
+  generalizations="true" realizations="true" associations="false" dependencies="false" nesting-relationships="true" 
+  router="FAN">  
+  <class id="1" language="java" name="com.coursescenter.pojo.CourseType" project="CoursesCenter" 
+    file="/CoursesCenter/src/main/java/com/coursescenter/pojo/CourseType.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="159" width="120" x="4" y="-38"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.coursescenter.pojo.Course" project="CoursesCenter" 
+    file="/CoursesCenter/src/main/java/com/coursescenter/pojo/Course.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="212" y="123"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.coursescenter.pojo.Instructor" project="CoursesCenter" 
+    file="/CoursesCenter/src/main/java/com/coursescenter/pojo/Instructor.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="359" y="42"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.coursescenter.pojo.Student" project="CoursesCenter" 
+    file="/CoursesCenter/src/main/java/com/coursescenter/pojo/Student.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="509" y="150"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.coursescenter.pojo.Request" project="CoursesCenter" 
+    file="/CoursesCenter/src/main/java/com/coursescenter/pojo/Request.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="267" width="141" x="608" y="-34"/>    
+    <display autosize="false" stereotype="false" package="false" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="com.coursescenter.pojo.RequestDetail" project="CoursesCenter" 
+    file="/CoursesCenter/src/main/java/com/coursescenter/pojo/RequestDetail.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="213" width="127" x="768" y="-32"/>    
+    <display autosize="false" stereotype="false" package="false" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="com.coursescenter.dao.CourseDAO" project="CoursesCenter" 
+    file="/CoursesCenter/src/main/java/com/coursescenter/dao/CourseDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="213" width="148" x="138" y="295"/>    
+    <display autosize="false" stereotype="false" package="false" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="com.coursescenter.dao.CourseTypeDAO" project="CoursesCenter" 
+    file="/CoursesCenter/src/main/java/com/coursescenter/dao/CourseTypeDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="177" width="118" x="5" y="130"/>    
+    <display autosize="false" stereotype="false" package="false" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="com.coursescenter.dao.InstructorDAO" project="CoursesCenter" 
+    file="/CoursesCenter/src/main/java/com/coursescenter/dao/InstructorDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="141" width="120" x="296" y="132"/>    
+    <display autosize="false" stereotype="false" package="false" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="com.coursescenter.dao.RequestDAO" project="CoursesCenter" 
+    file="/CoursesCenter/src/main/java/com/coursescenter/dao/RequestDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="159" width="142" x="610" y="243"/>    
+    <display autosize="false" stereotype="false" package="false" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="com.coursescenter.dao.RequestDetailDAO" project="CoursesCenter" 
+    file="/CoursesCenter/src/main/java/com/coursescenter/dao/RequestDetailDAO.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="213" width="128" x="766" y="193"/>    
+    <display autosize="false" stereotype="false" package="false" initial-value="false" signature="false" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <classifier-display autosize="true" stereotype="false" package="false" initial-value="false" signature="false" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="false"/>
+</class-diagram>

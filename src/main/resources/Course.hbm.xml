@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.coursescenter.pojo.Course" table="Course">
+        
+        <!-- Chave primária -->
+   		<id name="Id" column="Id">
+      		<generator class="identity" />
+    	</id>
+    	
+    	<!-- Coluna Identification -->
+    	<property name="Identification">
+      		<column name="Identification" sql-type="varchar" not-null="true" />
+    	</property>
+    	
+    	<!-- Coluna Price -->
+    	<property name="Price">
+      		<column name="Price" sql-type="double" not-null="true" />
+    	</property>
+    	
+    	<!-- Navegação de CourseType -->
+   		<many-to-one name="CourseType" lazy="false">
+      		<column name="CourseTypeId" sql-type="int" not-null="true" />
+   		</many-to-one>
+
+    	<!-- Navegação de Instructor -->
+    	<many-to-one name="Instructor" lazy="false">
+      		<column name="InstructorId" sql-type="int" not-null="true" />
+   		</many-to-one>
+    	
+   	</class>
+</hibernate-mapping>

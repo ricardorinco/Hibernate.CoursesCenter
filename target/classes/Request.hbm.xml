@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.coursescenter.pojo.Request" table="Request">
+        
+        <!-- Chave primária -->
+   		<id name="Id" column="id">
+      		<generator class="identity" />
+    	</id>
+    	
+    	<!-- Coluna Identification -->
+    	<property name="RequestDateTime">
+      		<column name="RequestDateTime" sql-type="datetime" not-null="true" />
+    	</property>
+    	
+    	<!-- Navegação de Student -->
+    	<many-to-one name="Student" lazy="false">
+      		<column name="StudentId" sql-type="int" not-null="true" />
+   		</many-to-one>
+    	
+    	<!-- Navegação de RequestDetail -->
+    	<bag name="RequestDetails" lazy="true">
+      		<key column="RequestId" />
+      		<one-to-many class="com.coursescenter.pojo.RequestDetail" />
+    	</bag>
+    	
+   	</class>
+</hibernate-mapping>
