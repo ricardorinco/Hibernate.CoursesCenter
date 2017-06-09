@@ -1,4 +1,6 @@
-﻿# Abstract
+> **Romanos 8:28** "Sabemos que Deus age em todas as coisas para o bem daqueles que o amam, dos que foram chamados de acordo com o seu propósito."
+
+# Abstract
 This article intends with a software development compare two frameworks Object-Relational Mapping (ORM),
 [Hibernate] wrote in Java and it’s a ported version to .Net, [NHibernate]. These frameworks have the objective
 to reduce the complexity between software developed that use the object-oriented and require a relational
